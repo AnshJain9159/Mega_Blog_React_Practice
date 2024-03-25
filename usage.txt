@@ -1,0 +1,10 @@
+npm i
+1. normal react
+2. @reduxjs/toolkit
+3. react-reduxjs
+4. react-router-dom 
+5. appwrite
+6. @tinymce/tinymce-react
+7. html-react-parser
+8. react-hook-form
+9. tailwind
