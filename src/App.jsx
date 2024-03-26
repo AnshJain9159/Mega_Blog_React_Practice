@@ -5,7 +5,9 @@ import './App.css'
 import {useDispatch} from 'react-redux'
 import authService from './appwrite/auth'
 import {login,logout} from './store/authSlice'
-import {Header,Footer} from './components'
+import Header from "./components/header/Header"
+import Footer from "./components/footer/Footer"
+// import {Header,Footer} from './components'
 import { Outlet  } from 'react-router-dom'
 function App() {
   const [loading,SetLoading]=useState(true)

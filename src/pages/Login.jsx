@@ -1,14 +1,14 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import { Login as LoginComponent } from '../components';
+import Login  from '../components/Login.jsx';
 
-function Login() {
+function LogIn() {
   return (
     <div className='py-8'>
-        <LoginComponent/>
+        <Login/>
     </div>
     
   )
 }
 
-export default Login
+export default LogIn;

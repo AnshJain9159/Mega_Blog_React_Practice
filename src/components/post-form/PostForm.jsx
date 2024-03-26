@@ -2,7 +2,11 @@
 import React from 'react';
 import { useCallback } from 'react';
 import { useForm } from 'react-hook-form';
-import { Button ,Input,Select,RTE} from '../index';
+import Input from '../Input'
+import Select from '../Select'
+import Button from '../Button'
+import RTE from '../RTE';
+// import { Button ,Input,Select,RTE} from '../index';
 import appwriteService from "../../appwrite/config";
 import { useNavigate } from 'react-router-dom';
 import {  useSelector } from 'react-redux';

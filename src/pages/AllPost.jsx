@@ -1,6 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import { Container, PostCard } from '../components';
+import Container from '../components/container/Container.jsx';
+import PostCard from '../components/PostCard.jsx';
+// import { Container, PostCard } from '../components';
 import appwriteService from '../appwrite/config';
 import { useState,useEffect } from 'react';
 

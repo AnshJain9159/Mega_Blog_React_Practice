@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 
-function Logo({width='100px'}) {
+function Logo() {
   return (
     <div>Logo</div>
   )
 }
 
-export default Logo
+export default Logo;
