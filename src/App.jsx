@@ -23,10 +23,10 @@ function App() {
       }
     })
     .finally(()=> SetLoading(false)) //loading ka kaam khatam
-  },[])
+  })
 
   return !loading ? (
-    <div className='min-h-screen flex flex-wrap content-between font-bold text-xl bg-yellow-400'>
+    <div className='min-h-screen w-full flex flex-wrap content-between font-bold text-xl bg-yellow-100'>
       <div className='w-full block content-between'>
         <Header/>
         <main>
@@ -34,6 +34,7 @@ function App() {
         </main>
         <Footer/>
       </div>
+      
     </div>
    ) : null
 }
